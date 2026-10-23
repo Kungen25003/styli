@@ -1,1 +1,200 @@
-{"styles": []}
+{
+  "categories": [
+    {
+      "id": "shield",
+      "slot": 1,
+      "name": "Shields",
+      "icon": "minecraft:shield",
+      "files": [
+        {
+          "match": "^assets/minecraft/textures/entity/shield/(.+\\.png(?:\\.mcmeta)?)$",
+          "to": "assets/minecraft/textures/entity/shield/$1"
+        }
+      ],
+      "detect": "textures/entity/shield/base\\.png$",
+      "preview": {
+        "type": "item",
+        "texture": "assets/minecraft/textures/item/shield.png"
+      }
+    },
+    {
+      "id": "mace",
+      "slot": 2,
+      "name": "Maces",
+      "icon": "minecraft:mace",
+      "files": [
+        {
+          "match": "^assets/minecraft/textures/item/(mace\\.png(?:\\.mcmeta)?)$",
+          "to": "assets/minecraft/textures/item/$1"
+        }
+      ],
+      "detect": "textures/item/mace\\.png$",
+      "preview": {
+        "type": "item",
+        "texture": "assets/minecraft/textures/item/mace.png"
+      }
+    }
+  ],
+  "styles": [
+    {
+      "id": "crystal_aaaaaaaaa",
+      "category": "crystal",
+      "name": "aaaaaaaaa survival",
+      "sha256": "80efee7007b44a8915b50b94cf4009e389dc16becf4bacded4ae9e1dccea5fbb",
+      "size": 4096,
+      "added": "2026-10-23"
+    },
+    {
+      "id": "anchor_kesu",
+      "category": "anchor",
+      "name": "Kesu Anchor",
+      "sha256": "3825e82ceeece47e822e86c10306ede2a3d146421ed22b483b50ff6e76720f78",
+      "size": 5753,
+      "added": "2026-10-23"
+    },
+    {
+      "id": "glowstone_kesu",
+      "category": "glowstone",
+      "name": "Kesu Glowstone",
+      "sha256": "fb06fef2743d127b842a65f8499f5cba5efa108820adde3e7106ac5fa9034159",
+      "size": 1859,
+      "added": "2026-10-23"
+    },
+    {
+      "id": "fire_kesu",
+      "category": "fire",
+      "name": "Kesu Fire",
+      "sha256": "0e430c57659500d756c516ead1e2242c91360275105db208d42ad16136025252",
+      "size": 2141,
+      "added": "2026-10-23"
+    },
+    {
+      "id": "pearl_kesu",
+      "category": "pearl",
+      "name": "Kesu Pearl",
+      "sha256": "fb53e997055a9817ea08100f76bfa42777924140cf8f6b83bd22c84d71a968b3",
+      "size": 1603,
+      "added": "2026-10-23"
+    },
+    {
+      "id": "totem_kesu",
+      "category": "totem",
+      "name": "Kesu Totem",
+      "sha256": "21359de081516c6a95b714bbcf549069e7d3b646f13baefbcfb2e5323a415715",
+      "size": 1504,
+      "added": "2026-10-23"
+    },
+    {
+      "id": "armor_aaaaaaaaa",
+      "category": "armor",
+      "name": "aaaaaaaaa survival armor",
+      "sha256": "732eaf6d9db14478ea1b8b3db8678143c61b6fa9697de28938d7a4c3f738756d",
+      "size": 5706,
+      "added": "2026-10-23"
+    },
+    {
+      "id": "fire_aaaaaaaaa",
+      "category": "fire",
+      "name": "aaaaaaaaa survival fire",
+      "sha256": "d3c075fe29d66b4beb7bd9c203c1f1a19c3f84cdf87dc8992a70003efb61d6cc",
+      "size": 1851,
+      "added": "2026-10-23"
+    },
+    {
+      "id": "obsidian_aaaaaaaaa",
+      "category": "obsidian",
+      "name": "aaaaaaaaa survival obsidian",
+      "sha256": "b44ccc002382f89583fdbfc76f82414cd1a482b663561a314e2dab43259b2f08",
+      "size": 1469,
+      "added": "2026-10-23"
+    },
+    {
+      "id": "glowstone_aaaaaaaaa",
+      "category": "glowstone",
+      "name": "aaaaaaaaa survival glowstone",
+      "sha256": "1803064f4e1ec790f5cbd4699848e75aaa70ae3c6f81db6395dc597377a531d6",
+      "size": 1457,
+      "added": "2026-10-23"
+    },
+    {
+      "id": "gap_aaaaaaaaa",
+      "category": "gap",
+      "name": "aaaaaaaaa survival gap",
+      "sha256": "3da233dffd2be39dbf7c83f71ff3195d130ec96266b9b0e5fc6aa21c025eb051",
+      "size": 1727,
+      "added": "2026-10-23"
+    },
+    {
+      "id": "pearl_aaaaaaaaa",
+      "category": "pearl",
+      "name": "aaaaaaaaa survival pearl",
+      "sha256": "04c41f7e4d1bdca0a79735dc1684175a73a5e1001095b278866fd8aacfab2989",
+      "size": 1776,
+      "added": "2026-10-23"
+    },
+    {
+      "id": "totem_aaaaaaaaa",
+      "category": "totem",
+      "name": "aaaaaaaaa survival totem",
+      "sha256": "4cfd8bc24f810e7280487b87b1bca7cf1fb728e5d240b6498cc380b52253aa7c",
+      "size": 1797,
+      "added": "2026-10-23"
+    },
+    {
+      "id": "stone_aaaaaaaaa",
+      "category": "stone",
+      "name": "aaaaaaaaa survival stone",
+      "sha256": "a7f47602fb4d7796db3b4bf9789da366497baba96e02412c5b2a4cdcfe27fb4a",
+      "size": 8078,
+      "added": "2026-10-23"
+    },
+    {
+      "id": "deepslate_aaaaaaaaa",
+      "category": "deepslate",
+      "name": "aaaaaaaaa survival deepslate",
+      "sha256": "c19c7458d32254df705234cc7bae67aab33eb4d57269ea17bf5e689cd98c77ce",
+      "size": 13395,
+      "added": "2026-10-23"
+    },
+    {
+      "id": "sword_aaaaaaaaa",
+      "category": "sword",
+      "name": "aaaaaaaaa survival sword",
+      "sha256": "e04f2201171d72eef75cb6353c8f2d9c517f563ef88d371c6af79b2d4879566c",
+      "size": 1446,
+      "added": "2026-10-23"
+    },
+    {
+      "id": "mace_aaaaaaaaa",
+      "category": "mace",
+      "name": "aaaaaaaaa survival mace",
+      "sha256": "039b31701316ee0d7bea1b716beb922d2c6334f8625e88eb63414036f2eac0a9",
+      "size": 1517,
+      "added": "2026-10-23"
+    },
+    {
+      "id": "snow_kesu",
+      "category": "snow",
+      "name": "Kesu snow",
+      "sha256": "bcf0db07780015262bb253a7d1fcb1053dde30aed2ca05d14dee6ccbd686af88",
+      "size": 1511,
+      "added": "2026-10-23"
+    },
+    {
+      "id": "shield_kesu",
+      "category": "shield",
+      "name": "Kesu shield",
+      "sha256": "205d3db490f49f7d34719f0f940a6ada0b1d7e727af107ad95424147cc5ebebe",
+      "size": 54007,
+      "added": "2026-10-23"
+    },
+    {
+      "id": "mace_kesu",
+      "category": "mace",
+      "name": "Kesu mace",
+      "sha256": "755df5ee9421218666386e9fcfe581f63eec765d16f28f021c1e7a5d5b55f4c6",
+      "size": 2557,
+      "added": "2026-10-23"
+    }
+  ]
+}
